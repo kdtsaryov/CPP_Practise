@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/kirill/CLionProjects/LongAr/LongAr.h
+vector
+-
+
 /home/kirill/CLionProjects/LongAr/main.cpp
 iostream
 -
-vector
--
+LongAr.h
+/home/kirill/CLionProjects/LongAr/LongAr.h
 
