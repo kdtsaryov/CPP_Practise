@@ -3,4 +3,5 @@
 
 CMakeFiles/LongAr.dir/main.cpp.o: \
  ../LongAr.h \
+ ../Parser.h \
  ../main.cpp

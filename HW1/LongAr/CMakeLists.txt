@@ -3,4 +3,4 @@ project(LongAr)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(LongAr main.cpp LongAr.h)
+add_executable(LongAr main.cpp LongAr.h Parser.h)

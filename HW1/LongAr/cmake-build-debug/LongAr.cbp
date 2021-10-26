@@ -85,6 +85,9 @@
 		<Unit filename="/home/kirill/CLionProjects/LongAr/LongAr.h">
 			<Option target="LongAr"/>
 		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/LongAr/Parser.h">
+			<Option target="LongAr"/>
+		</Unit>
 		<Unit filename="/home/kirill/CLionProjects/LongAr/main.cpp">
 			<Option target="LongAr"/>
 		</Unit>

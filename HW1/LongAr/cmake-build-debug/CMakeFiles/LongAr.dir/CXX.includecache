@@ -10,9 +10,25 @@
 vector
 -
 
+/home/kirill/CLionProjects/LongAr/Parser.h
+string
+-
+utility
+-
+vector
+-
+cctype
+-
+cstring
+-
+stdexcept
+-
+
 /home/kirill/CLionProjects/LongAr/main.cpp
 iostream
 -
 LongAr.h
 /home/kirill/CLionProjects/LongAr/LongAr.h
+Parser.h
+/home/kirill/CLionProjects/LongAr/Parser.h
 

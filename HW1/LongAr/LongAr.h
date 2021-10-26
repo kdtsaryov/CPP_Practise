@@ -2,14 +2,19 @@
 
 using namespace std;
 
+/// Класс, реализующий длинную арифметику
 class LongAr {
 public:
     LongAr() = default;
 
+    // Основание системы счисления
     static const int BASE = 10;
+    // Цифры
     vector<short int> digits;
+    // Знак числа
     bool isNeg{};
 
+    /// Метод, удаляющий ведущие нули
     void RemoveZeroes() {
         while (this->digits.size() > 1 && this->digits.back() == 0) {
             this->digits.pop_back();
@@ -19,6 +24,8 @@ public:
         }
     }
 
+    /// Конструктор
+    /// \param str Строка
     explicit LongAr(string str) {
         if (str[0] == '-') {
             str = str.substr(1);
@@ -32,6 +39,7 @@ public:
         this->RemoveZeroes();
     }
 
+    // Конструкторы из целочисленных типов
     explicit LongAr(signed short s) : LongAr(to_string(s)) {}
 
     explicit LongAr(unsigned short s) : LongAr(to_string(s)) {}
@@ -48,6 +56,7 @@ public:
 
     explicit LongAr(unsigned long long s) : LongAr(to_string(s)) {}
 
+    /// Преобразование в строку
     string CreateString() {
         if (this->digits.empty()) {
             return "0";
@@ -75,6 +84,7 @@ public:
         return copy;
     }
 
+    /// Поразрядное смещение вправо на 1
     void Right() {
         if (this->digits.empty()) {
             this->digits.push_back(0);
