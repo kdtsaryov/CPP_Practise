@@ -1,3 +1,0 @@
-/home/kirill/CLionProjects/LongAr/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/kirill/CLionProjects/LongAr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/kirill/CLionProjects/LongAr/cmake-build-debug/CMakeFiles/LongAr.dir
